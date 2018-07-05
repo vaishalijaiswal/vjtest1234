@@ -1,0 +1,5 @@
+baseUrl=https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AddSession
+remote = http://172.16.0.96:4445/wd/hub
+browserName=chrome
+version=beta
+platform=WINDOWS

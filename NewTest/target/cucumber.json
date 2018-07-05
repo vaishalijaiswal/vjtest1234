@@ -1,0 +1,133 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 96804262,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "GmailLoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Verify valid login",
+        "description": "",
+        "id": "login-page-test;verify-valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 320228081,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username as \"vaishalijaiswal1993@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vaishalijaiswal1993@gmail.com",
+                  "offset": 24
+                }
+              ],
+              "location": "GmailLoginSteps.user_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128214273,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on the first next button",
+            "match": {
+              "location": "GmailLoginSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226572042,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter password as \"vishi.123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vishi.123",
+                  "offset": 24
+                }
+              ],
+              "location": "GmailLoginSteps.user_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130990164,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the second next button",
+            "match": {
+              "location": "GmailLoginSteps.user_click_login_second_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10292835671,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on the gmail logo",
+            "match": {
+              "location": "GmailLoginSteps.user_click_on_the_gmail_logo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1172888170,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user logged in",
+            "match": {
+              "location": "GmailLoginSteps.verify_user_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page test",
+    "description": "",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "abc.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
